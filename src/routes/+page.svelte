@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Gap from '$lib/components/Gap.svelte';
+	import Meta from '$lib/components/Meta.svelte';
 	import { analytics } from '$lib/firebase';
 	import { Button } from 'carbon-components-svelte';
 	import { logEvent } from 'firebase/analytics';
@@ -16,6 +17,8 @@
 	onMount(() => {});
 </script>
 
+<Meta title="Saju Insights"></Meta>
+
 <h1>Welcome to Saju Insights!</h1>
 <Gap></Gap>
 
@@ -28,5 +31,5 @@
 </p>
 <Gap></Gap>
 
-<Button href="/saju">Start Your Saju Reading Now!</Button>
-<Button kind="secondary" href="/about">Learn More About Saju</Button>
+<Button href="/saju" on:click={handleCTA}>Start Your Saju Reading Now!</Button>
+<Button kind="secondary" href="/about" on:click={handleAbout}>Learn More About Saju</Button>

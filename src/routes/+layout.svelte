@@ -1,6 +1,8 @@
 <script lang="ts">
+	import { page } from '$app/stores';
 	import Footer from '$lib/components/Footer.svelte';
 	import Main from '$lib/components/Main.svelte';
+	import Meta from '$lib/components/Meta.svelte';
 	import {
 		Content,
 		Header,
@@ -34,8 +36,18 @@
 		}
 	];
 
-	onMount(() => {});
+	onMount(() => {
+		const subscription = page.subscribe(() => {
+			isSideNavOpen = false;
+		});
+
+		return () => {
+			subscription();
+		};
+	});
 </script>
+
+<Meta title="Saju Insights"></Meta>
 
 <Header platformName="Saju Insights" href="/" expandedByDefault={false} bind:isSideNavOpen>
 	<svelte:fragment slot="skip-to-content">

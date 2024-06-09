@@ -1,7 +1,12 @@
 <script lang="ts">
+	import Gap from '$lib/components/Gap.svelte';
+	import Meta from '$lib/components/Meta.svelte';
 </script>
 
+<Meta title="About"></Meta>
+
 <h1>About Saju Insights</h1>
+<Gap></Gap>
 
 <p>
 	Saju, also known as the Four Pillars of Destiny, is a traditional Korean form of astrology that
@@ -10,6 +15,7 @@
 	Water—in your life, saju provides a deeper understanding of your destiny and helps you make
 	informed decisions.
 </p>
+<Gap></Gap>
 
 <p>
 	Originating from ancient Chinese metaphysics, saju has been adapted and refined in Korean culture.
@@ -17,6 +23,7 @@
 	decisions. Whether you are seeking to understand yourself better or looking for direction in
 	various aspects of your life, saju offers valuable insights.
 </p>
+<Gap></Gap>
 
 <p>
 	Our mission at Saju Insights is to bring this ancient wisdom to a global audience, helping people

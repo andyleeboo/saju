@@ -35,7 +35,7 @@
 	}
 </script>
 
-<h1>Saju Insights Blog</h1>
+<h1>Saju8s Blog</h1>
 
 {#if selectedPost}
 	<article>

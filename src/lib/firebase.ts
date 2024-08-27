@@ -1,4 +1,3 @@
-// Import the functions you need from the SDKs you need
 import { browser } from '$app/environment';
 import { env } from '$env/dynamic/public';
 import { getAnalytics, type Analytics } from 'firebase/analytics';

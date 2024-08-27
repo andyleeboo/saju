@@ -47,9 +47,9 @@
 	});
 </script>
 
-<Meta title="Saju8s"></Meta>
+<Meta title="Saju8"></Meta>
 
-<Header platformName="Saju8s" href="/" expandedByDefault={false} bind:isSideNavOpen>
+<Header platformName="Saju8" href="/" expandedByDefault={false} bind:isSideNavOpen>
 	<svelte:fragment slot="skip-to-content">
 		<SkipToContent />
 	</svelte:fragment>

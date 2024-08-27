@@ -17,9 +17,9 @@
 	onMount(() => {});
 </script>
 
-<Meta title="Saju8s"></Meta>
+<Meta title="Saju8"></Meta>
 
-<h1>Welcome to Saju8s!</h1>
+<h1>Welcome to Saju8!</h1>
 <Gap></Gap>
 
 <p>

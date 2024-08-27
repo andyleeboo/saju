@@ -5,7 +5,7 @@
 
 <Meta title="About"></Meta>
 
-<h1>About Saju8s</h1>
+<h1>About Saju8</h1>
 <Gap></Gap>
 
 <p>
@@ -26,6 +26,6 @@
 <Gap></Gap>
 
 <p>
-	Our mission at Saju8s is to bring this ancient wisdom to a global audience, helping people from
-	all backgrounds uncover their true potential and achieve greater harmony in their lives.
+	Our mission at Saju8 is to bring this ancient wisdom to a global audience, helping people from all
+	backgrounds uncover their true potential and achieve greater harmony in their lives.
 </p>
